@@ -1,7 +1,7 @@
-#import "JQpDelegate.h"
-@interface JQpDelegate ()
+#import "LMpDelegate.h"
+@interface LMpDelegate ()
 @end
-@implementation JQpDelegate
+@implementation LMpDelegate
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     return YES;
 }

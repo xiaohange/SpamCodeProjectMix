@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0795AFD0210305A5005C3DDA /* JQpDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0795AFCF210305A5005C3DDA /* JQpDelegate.m */; };
-		0795AFD3210305A5005C3DDA /* JQewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0795AFD2210305A5005C3DDA /* JQewController.m */; };
+		07374EE22105C833002A2650 /* LMewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07374EDE2105C833002A2650 /* LMewController.m */; };
+		07374EE32105C833002A2650 /* LMpDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07374EE02105C833002A2650 /* LMpDelegate.m */; };
 		0795AFD6210305A5005C3DDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0795AFD4210305A5005C3DDA /* Main.storyboard */; };
 		0795AFD8210305A7005C3DDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0795AFD7210305A7005C3DDA /* Assets.xcassets */; };
 		0795AFDB210305A7005C3DDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0795AFD9210305A7005C3DDA /* LaunchScreen.storyboard */; };
@@ -35,11 +35,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07374EDE2105C833002A2650 /* LMewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMewController.m; sourceTree = "<group>"; };
+		07374EDF2105C833002A2650 /* LMpDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMpDelegate.h; sourceTree = "<group>"; };
+		07374EE02105C833002A2650 /* LMpDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMpDelegate.m; sourceTree = "<group>"; };
+		07374EE12105C833002A2650 /* LMewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMewController.h; sourceTree = "<group>"; };
 		0795AFCB210305A5005C3DDA /* DataSpamCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataSpamCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0795AFCE210305A5005C3DDA /* JQpDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JQpDelegate.h; sourceTree = "<group>"; };
-		0795AFCF210305A5005C3DDA /* JQpDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQpDelegate.m; sourceTree = "<group>"; };
-		0795AFD1210305A5005C3DDA /* JQewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JQewController.h; sourceTree = "<group>"; };
-		0795AFD2210305A5005C3DDA /* JQewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQewController.m; sourceTree = "<group>"; };
 		0795AFD5210305A5005C3DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0795AFD7210305A7005C3DDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0795AFDA210305A7005C3DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,10 +101,10 @@
 		0795AFCD210305A5005C3DDA /* DataSpamCode */ = {
 			isa = PBXGroup;
 			children = (
-				0795AFCE210305A5005C3DDA /* JQpDelegate.h */,
-				0795AFCF210305A5005C3DDA /* JQpDelegate.m */,
-				0795AFD1210305A5005C3DDA /* JQewController.h */,
-				0795AFD2210305A5005C3DDA /* JQewController.m */,
+				07374EE12105C833002A2650 /* LMewController.h */,
+				07374EDE2105C833002A2650 /* LMewController.m */,
+				07374EDF2105C833002A2650 /* LMpDelegate.h */,
+				07374EE02105C833002A2650 /* LMpDelegate.m */,
 				0795AFD4210305A5005C3DDA /* Main.storyboard */,
 				0795AFD7210305A7005C3DDA /* Assets.xcassets */,
 				0795AFD9210305A7005C3DDA /* LaunchScreen.storyboard */,
@@ -262,9 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0795AFD3210305A5005C3DDA /* JQewController.m in Sources */,
 				0795AFDE210305A7005C3DDA /* main.m in Sources */,
-				0795AFD0210305A5005C3DDA /* JQpDelegate.m in Sources */,
+				07374EE32105C833002A2650 /* LMpDelegate.m in Sources */,
+				07374EE22105C833002A2650 /* LMewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

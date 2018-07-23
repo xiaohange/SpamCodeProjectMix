@@ -1,7 +1,7 @@
-#import "JQewController.h"
-@interface JQewController ()
+#import "LMewController.h"
+@interface LMewController ()
 @end
-@implementation JQewController
+@implementation LMewController
 - (void)viewDidLoad {
     [super viewDidLoad];
 }

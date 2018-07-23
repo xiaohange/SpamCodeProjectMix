@@ -1,4 +1,4 @@
 #import <UIKit/UIKit.h>
-@interface JQpDelegate : UIResponder <UIApplicationDelegate>
+@interface LMpDelegate : UIResponder <UIApplicationDelegate>
 @property (strong, nonatomic) UIWindow *window;
 @end

@@ -40,7 +40,7 @@ NSString *gOutParameterName = nil;
 NSString *gSourceCodeDir = nil;
 NSInteger kLocalImageIndex = 0;
 NSInteger kSpamCount = 0;//每四个垃圾方法加参数
-NSInteger kPercent = 80;//百分之多少概率加密就写多少
+NSInteger kPercent = 100;//百分之多少概率加密就写多少
 NSInteger kImageCount = 0;
 NSInteger kfixImageCount = 0;
 
